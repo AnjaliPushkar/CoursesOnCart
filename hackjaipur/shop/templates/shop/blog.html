@@ -1,0 +1,60 @@
+{% extends 'shop/basic.html' %}
+{% block title%} Blog {% endblock %}
+{% block blogactive %} active {% endblock blogactive %}
+{% block css %}
+
+#blog {
+  background-color : white;
+}
+body{
+  background-color: black;
+}
+
+.blog-section {
+padding: 100px;
+text-align: center;
+background-color: black;
+color: black;
+}
+
+#part{
+  background-color:black;
+  height:100%;
+  width: 100%;
+}
+{% endblock %}
+
+{% block body %}
+{% load static %}
+
+
+    <div class="blog-section ">
+        <h1>Blogs</h1>
+
+        <p style="color:white;">Everyone can publish their blogs. If you want to share your blog,you can directle send to the given email address with the neccessary details. These blogs are written by Company, Staff, Users, Students.</p>
+      </div>
+
+
+
+    <div class="header">
+
+  </div>
+  {% for item in myposts %}
+<div class="container my-3" id="blog">
+        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static" id="part">
+            <div style="clear: right">
+              <img src="/media/{{item.img}}" align=”right” class="image my-3" style="padding-top: 80px;" />
+            </div>
+
+            <h3 class="mb-0">{{item.title}}</h3>
+            <div class="mb-1" style="color:white; style="padding-top: 50px;"">{{item.pub_date}}</div>
+            <p class="mb-auto" style="color:white;">{{item.desc}}</p>
+            <strong class="d-inline-block mb-2 text-danger" style="padding-bottom: 50px;" >by: {{item.author}}</strong><br />
+          </div>
+          <div class="col-auto d-none d-lg-block">
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+ {% endblock %}
