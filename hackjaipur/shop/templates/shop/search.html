@@ -200,7 +200,7 @@ background: #ffa500;
 background: url('../Images/about-us.png') no-repeat ;
 background-size: contain;
 background-position: bottom;
-min-height: 500px;
+<!-- min-height: 500px; -->
 padding-top: 300px;
 padding-left: 500px;
 }
@@ -388,6 +388,7 @@ text-decoration: none;
 .card{
 border: 2px solid #303030;
 padding: 20px;
+height : 350px;
 }
 
 /* copyright section */
@@ -426,9 +427,9 @@ color: #fff;
 .divider .divider-wrapper {
 margin-bottom: 20px;
 }
-#about .about-des {
+<!-- #about .about-des {
 padding-bottom: 40px;
-}
+} -->
 #team .team-wrapper {
 margin-bottom: 40px;
 }
@@ -438,26 +439,17 @@ padding-top: 20px;
 #contact .btn {
 margin-bottom: 20px;
 }
-footer h3 {
+<!-- footer h3 {
 padding-top: 30px;
+} -->
 }
-}
-
 
  {% endblock %}
 {% block courseactive %} active {% endblock courseactive %}
 {% block body %}
 {% load static %}
-
-
-<!-- contact header section -->
-<div id="contact-header">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-			</div>
-		</div>
-	</div>
+<div class="image">
+  <img src="{% static 'courseimg.jpeg' %}">
 </div>
 
 <!--cards -->
@@ -478,13 +470,14 @@ padding-top: 30px;
 							<h5 class="card-title">Team Leader</h5>
 							<p class="card-text">{{i.desc|slice:"0:58"}}...</p>
                 <a href="/shop/products/{{i.id}}"><button id="qv{{i.id}}" class="btn btn-primary cart">Details</button></a>
-						</div>
-					</div>
-				</div>
-			{% endfor %}
-			</div>
-		</div>
-	</section>
-  {% endfor %}
+              </div>
+  					</div>
+  				</div>
+  			{% endfor %}
+  			</div>
 
- {% endblock %}
+
+    {% endfor %}
+  </div>
+  </section>
+   {% endblock %}
