@@ -31,10 +31,10 @@ There are numerous courses available online on platforms like Udemy, Coursera, C
 </tr>
 <tr>
      <td>
-         <img src="/hackjaipur/static/Capture1.JPG" height="180" width="350">
+         <img src="/hackjaipur/hackjaipur/static/Capture1.JPG" height="180" width="350">
      	</td>
      	<td>
-         <img src="/hackjaipur/static/Capture2.JPG" height="180" width="350">
+         <img src="/hackjaipur/hackjaipur/static/Capture2.JPG" height="180" width="350">
      	</td>
 </tr>
 <tr>
@@ -46,9 +46,9 @@ There are numerous courses available online on platforms like Udemy, Coursera, C
      	</td>
 </tr>
 <tr>
-     	<td><img src="/hackjaipur/static/Capture5.JPG" height="180" width="350">
+     	<td><img src="/hackjaipur/hackjaipur/static/Capture5.JPG" height="180" width="350">
      	</td>
-     	<td><img src="/hackjaipur/static/Capture4.JPG" height="180" width="350">
+     	<td><img src="/hackjaipur/hackjaipur/static/Capture4.JPG" height="180" width="350">
      	</td>
 </tr>
 <tr>
@@ -60,9 +60,9 @@ There are numerous courses available online on platforms like Udemy, Coursera, C
       </td>
 </tr>
 <tr>
-     <td><img src="/hackjaipur/static/Capture3.JPG" height="180" width="350">
+     <td><img src="/hackjaipur/hackjaipur/static/Capture3.JPG" height="180" width="350">
      </td>
-     <td><img src="/hackjaipur/static/Capture6.JPG" height="180" width="350">
+     <td><img src="/hackjaipur/hackjaipur/static/Capture6.JPG" height="180" width="350">
      </td>
 </tr>
 
