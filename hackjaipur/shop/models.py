@@ -1,7 +1,8 @@
 from django.db import models
 
 # Create your models here.
-
+class Contact(models.Model):
+    email = models.CharField(max_length=255)
 
 class Blog(models.Model):
     img = models.ImageField(upload_to ='shop/images', default="")

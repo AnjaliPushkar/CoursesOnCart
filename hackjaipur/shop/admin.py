@@ -1,10 +1,6 @@
-from .models import Blog, Product
+from .models import Blog, Product, Contact
 from django.contrib import admin
+
 admin.site.register(Product)
-#
-# admin.site.register(Contact)
-
+admin.site.register(Contact)
 admin.site.register(Blog)
-from django.contrib import admin
-
-# Register your models here.
