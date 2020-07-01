@@ -1,6 +1,6 @@
-#CoursesOnCart
+# CoursesOnCart
 
-##Introduction
+## Introduction
 
 There are numerous courses available online on platforms like Udemy, Coursera, Coding Blocks etc. from where students can learn how to program. However due to the overwhelmingly large number of choices available selecting one of them becomes difficult. To make a little difference in this procedure we have developed a website in which some of the best or highly rated courses from these platforms are shown. And after choosing a course the student we will be redirected to the website of the platform of which he or she wants to take the course.  In a nutshell the website acts a catalogue for courses available on various platforms.
 
@@ -20,52 +20,51 @@ There are numerous courses available online on platforms like Udemy, Coursera, C
 ## Screenshots of Web Application
 
 
-     <table align="center">
-
-      <tr>
-         <td>
-     			Homepage
-     		</td>
-     		<td>
-     			Courses
-     		</td>
-     </tr>
-     <tr>
-     	<td>
+<table align="center">
+<tr>
+    <td>
+   			Homepage
+    </td>
+     <td>
+     		Courses
+     </td>
+</tr>
+<tr>
+     <td>
          <img src="/hackjaipur/static/Capture1.JPG" height="180" width="350">
      	</td>
      	<td>
          <img src="/hackjaipur/static/Capture2.JPG" height="180" width="350">
      	</td>
-     	</tr>
-     <tr>
+</tr>
+<tr>
       <td>
      		  CourseView
-     		</td>
-     		<td>
+     	</td>
+     	<td>
      			AboutUs
-     		</td>
-     	</tr>
-     	<tr>
-     		<td><img src="/hackjaipur/static/Capture5.JPG" height="180" width="350">
-     		</td>
-     		<td><img src="/hackjaipur/static/Capture4.JPG" height="180" width="350">
-     		</td>
-     	</tr>
-      <tr>
-       <td>
-           Blogs
-         </td>
-         <td>
-           Contact
-         </td>
-       </tr>
-       <tr>
-         <td><img src="/hackjaipur/static/Capture3.JPG" height="180" width="350">
-         </td>
-         <td><img src="/hackjaipur/static/Capture6.JPG" height="180" width="350">
-         </td>
-       </tr>
-     <tr>
+     	</td>
+</tr>
+<tr>
+     	<td><img src="/hackjaipur/static/Capture5.JPG" height="180" width="350">
+     	</td>
+     	<td><img src="/hackjaipur/static/Capture4.JPG" height="180" width="350">
+     	</td>
+</tr>
+<tr>
+      <td>
+         Blogs
+      </td>
+      <td>
+         Contact
+      </td>
+</tr>
+<tr>
+     <td><img src="/hackjaipur/static/Capture3.JPG" height="180" width="350">
+     </td>
+     <td><img src="/hackjaipur/static/Capture6.JPG" height="180" width="350">
+     </td>
+</tr>
 
-     </table>
+
+</table>
